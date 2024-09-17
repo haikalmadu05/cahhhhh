@@ -1,0 +1,137 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, p {
+    margin: 10px 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Header */
+header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, rgba(51, 153, 102, 0.8), rgba(153, 204, 102, 0.8));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('foto/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.4);
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sections */
+.content {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.couple-photo {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Countdown */
+#timer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+#timer div {
+    background: #339966;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#timer span {
+    display: block;
+    font-size: 2rem;
+}
+
+/* Video Section */
+.video-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
